@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header1 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px 0;
+}
+
+.phone, .email {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.icon {
+    margin-right: 8px; /* Adjust the value as needed for spacing */
+}
+
+.socialHandles .icon {
+    margin-left: 8px;
+    margin-right: 8px;
+}

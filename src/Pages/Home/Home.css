@@ -1,0 +1,36 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+    grid-gap: 10px; /* Gap between grid items */
+    /* align-content: stretch; Stretch items to fill container height */
+    min-height: 400px;
+    margin: 0 120px;
+    margin-top: 80px;
+    
+  }
+  
+  .leftContainer {
+    grid-column: 1 / 2; /* Card 1 occupies the first column */
+  }
+  
+  .rightContainer {
+    display: grid;
+    grid-template-rows: auto auto; /* Two rows */
+    grid-gap: 10px; /* Gap between grid items */
+    grid-column: 2 / 3; /* Cards 2, 3, and 4 occupy the second column */
+    align-content: stretch; /* Stretch items to fill container height */
+  }
+   
+  .card2 {
+    grid-row: 1 / 2; /* Card 2 occupies the first row */
+  }
+  
+  .card3,
+  .card4 {
+    grid-row: 2 / 3; /* Cards 3 and 4 occupy the second row */
+  }
+  .card4{
+    margin-left: -340px;
+  }
+  
