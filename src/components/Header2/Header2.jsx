@@ -38,13 +38,13 @@ function Header2() {
                         Login/Register
                     </Link>
                     <Link to="/">
-                        <FontAwesomeIcon icon={faSearch} className="icon iconSearch" />
+                        <FontAwesomeIcon icon={faSearch} className="header2icon iconSearch" />
                     </Link>
                     <Link to="/">
-                        <FontAwesomeIcon icon={faShoppingCart} className="icon" />
+                        <FontAwesomeIcon icon={faShoppingCart} className="header2icon" />
                     </Link>
                     <Link to="/">
-                        <FontAwesomeIcon icon={faHeart} className="icon" />
+                        <FontAwesomeIcon icon={faHeart} className="header2icon" />
                     </Link>
                 </div>
 

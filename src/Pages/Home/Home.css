@@ -33,4 +33,159 @@
   .card4{
     margin-left: -340px;
   }
+  .apiImages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .headerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .headerText, .headerTexth4, .headerTexth1, .headerTextp{
+    margin-bottom: -8px;
+  }
+  /* Container styling */
+.brands {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Add some space between the brand items */
+  margin: 60px auto;
+}
+
+/* Brand item styling */
+.brands > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Image styling */
+.brands img {
+  max-width: 100%; /* Ensure images fit within their container */
+  height: auto;
+  margin-bottom: 10px; /* Space between image and heading */
+}
+
+/* Heading styling */
+.brands h2 {
+  margin: 10px 0; /* Space around the heading */
+}
+
+/* Paragraph styling */
+.brands p {
+  width: 250px; /* Adjust width to achieve three lines for the longest text */
+  margin: 0 auto;
+  font-size: 16px; /* Adjust font size if needed */
+  line-height: 1.2; /* Adjust line height if needed */
+}
+.headerTextblue{
+  color:blue;
+  margin-bottom: -8px;
+}
+/* Container styling */
+.featuredPostImg {
+  display: flex;
+  justify-content: space-between; /* Ensure space between the columns */
+  gap: 20px; /* Add gap between the columns */
+  padding: 20px;
+  margin: 0 120px;
+}
+
+/* Child divs styling */
+.featuredPostImg > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%; /* Ensure each column takes up equal space */
+}
+
+/* Image styling */
+.featuredPostImg img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Text styling */
+.featuredPostTxt {
   
+  /* display: flex; */
+  /* text-align: center; */
+  align-items: center;
+  justify-content: left;
+  /* margin-left: 40px; */
+}
+
+.p1, .p2 {
+  margin: 10px 0;
+  width: 250px; /* Adjust width to achieve three lines for the longest text */
+  /* margin: 0 auto; */
+  font-size: 16px; /* Adjust font size if needed */
+  line-height: 1.2;
+}
+.p1 a,
+.p1 span {
+    margin-right: 20px; /* Add margin between each element */
+}
+h4 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* Icon styling */
+.icon {
+  margin-right: 5px;
+}
+
+/* Link styling */
+.link {
+  text-decoration: none;
+  color: #007bff; /* Bootstrap primary color */
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Additional styling for date and comments */
+.featuredPostTxt div span {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px 5px; /* Space between the spans */
+}
+
+/* Styling for the "Learn More" section */
+.featuredPostTxt div p {
+  margin: 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex; /* New */
+  align-items: center; /* New */
+}
+
+.featuredPostTxt div p span {
+  margin-left: 5px;
+}
+.featuredPostTxt div span {
+  display: inline-flex;
+  align-items: center;
+  /* margin: 10px 10px; Space between the icon and text */
+  margin-right: 24px;
+}
+
+/* Icon styling */
+.icon {
+  margin-left: -6px; /* Space between the icon and text */
+}
+.learnmore{
+padding-left: 10px;
+color: blue;
+}

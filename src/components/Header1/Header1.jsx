@@ -10,11 +10,11 @@ function Header1() {
         <>
             <div className="header1">
                 <div className="phone">
-                    <FontAwesomeIcon icon={faPhone} className="icon" />
-                    (225) 555-0118
+                    <FontAwesomeIcon icon={faPhone} className="headericon" />
+                    (225) 555-0118ico
                 </div>
                 <div className="email">
-                    <FontAwesomeIcon icon={faEnvelope} className="icon" />
+                    <FontAwesomeIcon icon={faEnvelope} className="n" />
                     michelle-river@example.com
                 </div>
                 <div className="promo">
@@ -22,10 +22,10 @@ function Header1() {
                 </div>
                 <div className="socialHandles">
                     Follow us:
-                    <FontAwesomeIcon icon={faInstagram} className="icon" />
-                    <FontAwesomeIcon icon={faYoutube} className="icon" />
-                    <FontAwesomeIcon icon={faFacebook} className="icon" />
-                    <FontAwesomeIcon icon={faTwitter} className="icon" />
+                    <FontAwesomeIcon icon={faInstagram} className="headericon" />
+                    <FontAwesomeIcon icon={faYoutube} className="headericon" />
+                    <FontAwesomeIcon icon={faFacebook} className="headericon" />
+                    <FontAwesomeIcon icon={faTwitter} className="headericon" />
                 </div>
             </div>
             <div>
