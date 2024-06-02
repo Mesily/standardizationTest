@@ -27,6 +27,9 @@ import unsplash6 from "../../images/unsplash6.png";
 import unsplash7 from "../../images/unsplash7.png";
 import unsplash8 from "../../images/unsplash8.png";
 import unsplash9 from "../../images/unsplash9.png";
+import hmBg from "../../images/hmBg.png";
+import Footer from "../../components/Footer/Footer";
+
 
 
 
@@ -180,26 +183,42 @@ function Home() {
                 <h5>Regina Milles</h5>
                 <h5>Designer</h5>
               </div>
-              <div className="containerRight">
-                <div className="row1unsplash">
+            </div>
+            <div className="containerRight">
+              <div className="row1unsplash">
                 <img src={unsplash1} className="unsplash1Img" alt="photo" />
                 <img src={unsplash2} className="unsplash2Img" alt="photo" />
                 <img src={unsplash3} className="unsplash3Img" alt="photo" />
-                </div>
-                <div className="row2unsplash">
+              </div>
+              <div className="row2unsplash">
                 <img src={unsplash4} className="unsplash4Img" alt="photo" />
                 <img src={unsplash5} className="unsplash5Img" alt="photo" />
                 <img src={unsplash6} className="unsplash6Img" alt="photo" />
-                </div>
-                <div className="row3unsplash">
+              </div>
+              <div className="row3unsplash">
                 <img src={unsplash7} className="unsplash7Img" alt="photo" />
                 <img src={unsplash8} className="unsplash8Img" alt="photo" />
                 <img src={unsplash9} className="unsplash9Img" alt="photo" />
-                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <div className="experience">
+          <img src={hmBg} className="experienceBg" alt="experience background" />
+          <div className="experienceTxt">
+            <p className="bluetxt">Designing Better Experience</p>
+            <h3>Problems trying to resolve the conflict between</h3>
+            <p className="graytxt">Problems trying to resolve the conflict between the two major realms of Classical physics:</p>
+            <h4>$16.48</h4>
+            <button className="ctaBtn">ADD YOUR CALL TO ACTION</button>
+          </div>
+        </div>
+
+<div>
+  <Footer />
+</div>
+
       </div>
 
     </>
