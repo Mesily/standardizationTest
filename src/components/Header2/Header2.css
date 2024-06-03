@@ -34,10 +34,11 @@
 .leftNav a {
     
     text-decoration: none;
-    color: blue;
+   
 }
 .header2icon{
     margin-right: 16px;
+    color: blue;
 }
    .iconUser{
     margin-right: 8px;

@@ -1,0 +1,162 @@
+.productNav {
+    display: flex;
+    background-color: #fafafa;
+    width: 100%;
+    height: 60px;
+
+}
+
+.productsnavs {
+    margin: auto 60px;
+    text-align: left;
+
+}
+
+.productspageicon {
+    margin-right: 10px;
+    color: #bdbdbd;
+}
+
+.shop {
+    color: #bdbdbd;
+}
+
+.productsDescription {
+    display: flex;
+    flex-direction: row;
+    width: 1050px;
+    height: 550px;
+    gap: 30px;
+    margin: auto 60px;
+}
+
+.img1 {
+    width: 506px;
+    height: 450px;
+    margin-bottom: 8px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    height: 471px;
+    margin-left: 24px;
+
+}
+
+.description>h4 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-left: 24px;
+
+}
+
+.description>h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    /* text-align: center; */
+    margin-left: 24px;
+}
+
+.description>h6 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-left: 24px;
+
+}
+
+.description>h6>span {
+    color: blue;
+}
+
+.stars {
+    display: flex;
+    gap: 10px;
+    margin-left: 24px;
+}
+
+.staricons {
+    color: #F3CD03;
+    gap: 5px;
+}
+
+.circles {
+    display: flex;
+    /* Use flexbox to arrange children in a row */
+    gap: 20px;
+    /* Optional: add some space between the circles */
+    border-top: 1px solid #bdbdbd;
+    margin-top: 64px;
+    margin-left: 24px;
+}
+
+.circles>div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    gap: 30px;
+    margin-top: 10px;
+
+}
+
+.blue {
+    background-color: #23a6f0;
+}
+
+.green {
+    background-color: #2dc071;
+}
+
+.red {
+    background-color: #E77C40;
+    ;
+}
+
+.black {
+    background-color: #252b42;
+}
+
+.img2,
+.img3 {
+    width: 100px;
+    height: 75px;
+    margin-right: 10px;
+    border-bottom: ;
+}
+
+.lastpart {
+    display: flex;
+    margin-top: 64px;
+    gap: 30px;
+    margin-left: 24px;
+}
+
+.btn>button {
+    padding: 10px 20px;
+    background-color: #23a6f0;
+    border: none;
+    border-radius: 5px;
+}
+
+.iconsets {
+    display: flex;
+    align-items: center;
+
+}
+
+.productsicon {
+    margin-right: 12px;
+
+    
+}

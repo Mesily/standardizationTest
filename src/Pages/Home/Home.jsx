@@ -1,5 +1,6 @@
 import React from "react";
 import Header1 from "../../components/Header1/Header1";
+import Footer from "../../components/Footer/Footer";
 import BestSellerProducts from "../../components/BestSellerProducts/BestSellerProducts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faComment, faAngleRight, faStar as solidStar } from "@fortawesome/free-solid-svg-icons";
@@ -28,13 +29,6 @@ import unsplash7 from "../../images/unsplash7.png";
 import unsplash8 from "../../images/unsplash8.png";
 import unsplash9 from "../../images/unsplash9.png";
 import hmBg from "../../images/hmBg.png";
-import Footer from "../../components/Footer/Footer";
-
-
-
-
-
-
 
 
 function Home() {
@@ -97,9 +91,12 @@ function Home() {
               <img src={featuredimg1} className="featuredImg1" alt="featured Post1" />
               <div className="featuredPostTxt">
                 <p className="p1">
-                  <a href="" class="link">Google</a>
-                  <span>Trending</span>
-                  <span>New</span>
+                  <a href="" class="googlelink">Google</a>
+                  <span> 
+                    <a href="" className="link">Trending</a>
+                    <a href="" className="link">New</a>
+                    </span>
+                 
                 </p>
                 <h4>Loudest à la Madison #1<br></br>
                   (L'integral)</h4>
@@ -121,9 +118,11 @@ function Home() {
               <img src={featuredimg2} className="featuredImg2" alt="featured Post2" />
               <div className="featuredPostTxt">
                 <p className="p1">
-                  <a href="" class="link">Google</a>
-                  <span>Trending</span>
-                  <span>New</span>
+                <a href="" class="googlelink">Google</a>
+                  <span> 
+                    <a href="" className="link">Trending</a>
+                    <a href="" className="link">New</a>
+                    </span>
                 </p>
                 <h4>Loudest à la Madison #1<br></br>
                   (L'integral)</h4>
@@ -145,9 +144,11 @@ function Home() {
               <img src={featuredimg3} className="featuredImg3" alt="featured Post3" />
               <div className="featuredPostTxt">
                 <p className="p1">
-                  <a href="" class="link">Google</a>
-                  <span>Trending</span>
-                  <span>New</span>
+                <a href="" class="googlelink">Google</a>
+                  <span> 
+                    <a href="" className="link">Trending</a>
+                    <a href="" className="link">New</a>
+                    </span>
                 </p>
                 <h4>Loudest à la Madison #1 <br></br>
                   (L'integral)</h4>

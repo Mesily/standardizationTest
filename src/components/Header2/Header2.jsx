@@ -5,6 +5,7 @@ import {  faUser, faSearch, faShoppingCart, faHeart } from "@fortawesome/free-so
 import { faInstagram, faYoutube, faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
 
+
 function Header2() {
     return (
         <div className="header2">
@@ -15,7 +16,7 @@ function Header2() {
                 <Link to="/" className="navLinks">
                     Home
                 </Link>
-                <Link to="/" className="navLinks">
+                <Link to="/Productspage" className="navLinks productspage">
                     Shop
                     <span></span>
                 </Link>
@@ -43,9 +44,9 @@ function Header2() {
                     <Link to="/">
                         <FontAwesomeIcon icon={faShoppingCart} className="header2icon" />
                     </Link>
-                    <Link to="/">
+                   
                         <FontAwesomeIcon icon={faHeart} className="header2icon" />
-                    </Link>
+                  
                 </div>
 
         </div>

@@ -147,8 +147,11 @@ h4 {
 /* Link styling */
 .link {
   text-decoration: none;
-  color: #007bff; /* Bootstrap primary color */
   font-weight: bold;
+  color:black;
+}
+.googlelink{
+  color: blue; 
 }
 
 .link:hover {
