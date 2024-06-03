@@ -6,9 +6,9 @@ body {
 }
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
-    grid-gap: 10px; /* Gap between grid items */
-    /* align-content: stretch; Stretch items to fill container height */
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px; 
+   
     min-height: 400px;
     margin: 0 120px;
     margin-top: 80px;
@@ -16,24 +16,24 @@ body {
   }
   
   .leftContainer {
-    grid-column: 1 / 2; /* Card 1 occupies the first column */
+    grid-column: 1 / 2; 
   }
   
   .rightContainer {
     display: grid;
-    grid-template-rows: auto auto; /* Two rows */
-    grid-gap: 10px; /* Gap between grid items */
-    grid-column: 2 / 3; /* Cards 2, 3, and 4 occupy the second column */
-    align-content: stretch; /* Stretch items to fill container height */
+    grid-template-rows: auto auto; 
+    grid-gap: 10px;
+    grid-column: 2 / 3; 
+    align-content: stretch; 
   }
    
   .card2 {
-    grid-row: 1 / 2; /* Card 2 occupies the first row */
+    grid-row: 1 / 2; 
   }
   
   .card3,
   .card4 {
-    grid-row: 2 / 3; /* Cards 3 and 4 occupy the second row */
+    grid-row: 2 / 3; 
   }
   .card4{
     margin-left: -340px;
@@ -54,15 +54,15 @@ body {
   .headerText, .headerTexth4, .headerTexth1, .headerTextp{
     margin-bottom: -8px;
   }
-  /* Container styling */
+  
 .brands {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Add some space between the brand items */
+  gap: 20px; 
   margin: 60px auto;
 }
 
-/* Brand item styling */
+
 .brands > div {
   display: flex;
   flex-direction: column;
@@ -70,14 +70,14 @@ body {
   text-align: center;
 }
 
-/* Image styling */
+
 .brands img {
-  max-width: 100%; /* Ensure images fit within their container */
+  max-width: 100%; 
   height: auto;
-  margin-bottom: 10px; /* Space between image and heading */
+  margin-bottom: 10px; 
 }
 
-/* Heading styling */
+
 .brands h2 {
   margin: 10px 0; /* Space around the heading */
 }
