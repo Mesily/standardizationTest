@@ -55,9 +55,12 @@ function Home() {
             <h2 className="headerTexth1">BESTSELLER PRODUCTS</h2>
             <p className="headerTextp">Problems trying to resolve the conflict between </p>
           </div>
-          <div className="apiImages">
+          <div className="BestSeller">
+          <div className="BestSellerItems">
             <BestSellerProducts />
           </div>
+          </div>
+          
         </div>
         <div className="headerText">
           <h4 className="headerTexth4"> Featured Products</h4>

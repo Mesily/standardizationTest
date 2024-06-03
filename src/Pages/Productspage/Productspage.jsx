@@ -24,102 +24,114 @@ import brands6 from "../../images/brands6.png";
 function Productspage() {
     return (
         <>
+
+            <div className="header">
+                <Header1 />
+            </div>
             <div className="productsPage">
-                <div className="header">
-                    <Header1 />
-                </div>
                 <div className="productNav">
                     <div className="productsnavs">
-                    <span className="home">
-                        <Link to="/" className="navLinks">Home</Link>
-                        <FontAwesomeIcon icon={faAngleRight} className="productspageicon" />
-                    </span>
-                    <Link to="/" className="navLinks shop">
-                        Shop
-                    </Link>
-                    </div>
-                    
-                </div>
-                <div className="productsDescription">
-                    <div className="productImage">
-                        <img src={topimg1} className="img1" alt="image" />
-                        <div className="smallPhotos">
-                            <img src={topimg2} className="img2" alt="image" />
-                            <img src={topimg3} className="img3" alt="image" />
-                        </div>
-                    </div>
-                    <div className="description">
-                        <h4>Floating Phone</h4>
-                        <span className="stars">
-                            <FontAwesomeIcon icon={solidStar} className="staricons" />
-                            <FontAwesomeIcon icon={solidStar} className="staricons"/>
-                            <FontAwesomeIcon icon={solidStar} className="staricons"/>
-                            <FontAwesomeIcon icon={solidStar} className="staricons"/>
-                            <FontAwesomeIcon icon={regularStar} className="staricons"/>
-                            <span>10 Reviews</span>
+                        <span className="home">
+                            <Link to="/" className="navLinks">Home</Link>
+                            <FontAwesomeIcon icon={faAngleRight} className="productspageicon" />
                         </span>
-                        <h3>$1,139.33</h3>
-                        <h6>Availability  : <span>In Stock</span> </h6>
-                        <div className="circles">
-                            <div className="blue"></div>
-                            <div className="green"></div>
-                            <div className="red"></div>
-                            <div className="black"></div>
-                        </div>
-                        <div className="lastpart">
-                            <div className="btn">
-                                <button>Select Options
-                                    </button></div>
-                            <div className="iconsets">
-                                <span className="productsIcons">
-                                <Link to="/">
-                                    <FontAwesomeIcon icon={faShoppingCart} className="productsicon" />
-                                </Link>
+                        <Link to="/" className="navLinks shop">
+                            Shop
+                        </Link>
+                    </div>
 
-                                <FontAwesomeIcon icon={faHeart} className="productsicon" />
-                                <FontAwesomeIcon icon={faEye} className="productsicon" />
-                            </span></div>
+                </div>
+                <div className="productsDecriptionContainer">
+                    <div className="productsDescription">
+
+                        <div className="productImage">
+                            <img src={topimg1} className="img1" alt="image" />
+                            <div className="smallPhotos">
+                                <img src={topimg2} className="img2" alt="image" />
+                                <img src={topimg3} className="img3" alt="image" />
+                            </div>
+                        </div>
+                        <div className="description">
+                            <h4>Floating Phone</h4>
+                            <span className="stars">
+                                <FontAwesomeIcon icon={solidStar} className="staricons" />
+                                <FontAwesomeIcon icon={solidStar} className="staricons" />
+                                <FontAwesomeIcon icon={solidStar} className="staricons" />
+                                <FontAwesomeIcon icon={solidStar} className="staricons" />
+                                <FontAwesomeIcon icon={regularStar} className="staricons" />
+                                <span>10 Reviews</span>
+                            </span>
+                            <h3>$1,139.33</h3>
+                            <h6>Availability  : <span>In Stock</span> </h6>
+                            <div className="circles">
+                                <div className="blue"></div>
+                                <div className="green"></div>
+                                <div className="red"></div>
+                                <div className="black"></div>
+                            </div>
+                            <div className="lastpart">
+                                <div className="btn">
+                                    <button>Select Options
+                                    </button></div>
+                                <div className="iconsets">
+                                    <span className="productsIcons">
+                                        <Link to="/">
+                                            <FontAwesomeIcon icon={faShoppingCart} className="productsicon" />
+                                        </Link>
+
+                                        <FontAwesomeIcon icon={faHeart} className="productsicon" />
+                                        <FontAwesomeIcon icon={faEye} className="productsicon" />
+                                    </span></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="productsAdditionalInfo">
-                    <div className="additionalnfoContainer">
+
+                <div className="additionalnfoContainer">
                     <div className="additionalnfo">
                         <h4> Description</h4>
                         <h4> Additional Information</h4>
                         <h4> Reviews (10)</h4>
                     </div>
-                    </div>
-                    
-                    <div>
-                        <h1>the quick fox jumps over </h1>
-                        <p>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
-                            RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.</p>
-                        <p>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
-                            RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.</p>
-                        <p>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
-                            RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.</p>
-                    </div>
-                    <img src={img2} className="additionalPhoto" alt="photo" />
                 </div>
+
+                <div className="longTxtContainer">
+                    <div className="longTxt">
+                        <h3>the quick fox jumps over </h3>
+                        <p>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
+                            RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.</p>
+                        <p>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
+                            RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.</p>
+                        <p>Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
+                            RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.</p>
+                    </div>
+                    <div className="extraPhoto">
+                        <img src={img2} className="additionalPhoto" alt="photo" />
+                    </div>
+                </div>
+
+
+
                 <div className="BestSeller">
-                    Best seller Products
-                    <div>
+                    <div className="BestSellerItems">
                         <BestSellerProducts />
                     </div>
                 </div>
-                <div className="productspageBrands">
-                    <img src={brands1} className="brands" alt="photo" />
-                    <img src={brands2} className="brands" alt="photo" />
-                    <img src={brands3} className="brands" alt="photo" />
-                    <img src={brands4} className="brands" alt="photo" />
-                    <img src={brands5} className="brands" alt="photo" />
-                    <img src={brands6} className="brands" alt="photo" />
-                </div>
-                <div>
-                    <Footer />
+                <div className="productspageBrandsContainer">
+                    <div className="productspageBrands">
+                        <img src={brands1} className="brands" alt="photo" />
+                        <img src={brands2} className="brands" alt="photo" />
+                        <img src={brands3} className="brands" alt="photo" />
+                        <img src={brands4} className="brands" alt="photo" />
+                        <img src={brands5} className="brands" alt="photo" />
+                        <img src={brands6} className="brands" alt="photo" />
+                    </div>
                 </div>
             </div>
+            <div>
+                <Footer />
+            </div>
+
 
 
         </>
