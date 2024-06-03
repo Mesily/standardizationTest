@@ -69,7 +69,7 @@ body {
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0.10000000149011612px;
-    /* text-align: center; */
+    
     margin-left: 24px;
 }
 
@@ -101,9 +101,9 @@ body {
 
 .circles {
     display: flex;
-    /* Use flexbox to arrange children in a row */
+   
     gap: 20px;
-    /* Optional: add some space between the circles */
+   
     border-top: 1px solid #bdbdbd;
     margin-top: 64px;
     margin-left: 24px;
