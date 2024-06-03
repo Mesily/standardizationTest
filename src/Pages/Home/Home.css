@@ -79,38 +79,38 @@ body {
 
 
 .brands h2 {
-  margin: 10px 0; /* Space around the heading */
+  margin: 10px 0; 
 }
 
-/* Paragraph styling */
+
 .brands p {
-  width: 250px; /* Adjust width to achieve three lines for the longest text */
+  width: 250px; 
   margin: 0 auto;
-  font-size: 16px; /* Adjust font size if needed */
-  line-height: 1.2; /* Adjust line height if needed */
+  font-size: 16px; 
+  line-height: 1.2; 
 }
 .headerTextblue{
   color:blue;
   margin-bottom: -8px;
 }
-/* Container styling */
+
 .featuredPostImg {
   display: flex;
-  justify-content: space-between; /* Ensure space between the columns */
-  gap: 20px; /* Add gap between the columns */
+  justify-content: space-between; 
+  gap: 20px; 
   padding: 20px;
   margin: 0 120px;
 }
 
-/* Child divs styling */
+
 .featuredPostImg > div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%; /* Ensure each column takes up equal space */
+  width: 30%; 
 }
 
-/* Image styling */
+
 .featuredPostImg img {
   max-width: 100%;
   height: auto;
@@ -118,38 +118,37 @@ body {
   margin-bottom: 10px;
 }
 
-/* Text styling */
+
 .featuredPostTxt {
   
-  /* display: flex; */
-  /* text-align: center; */
+  
+  
   align-items: center;
   justify-content: left;
-  /* margin-left: 40px; */
+ 
 }
 
 .p1, .p2 {
   margin: 10px 0;
-  width: 250px; /* Adjust width to achieve three lines for the longest text */
-  /* margin: 0 auto; */
-  font-size: 16px; /* Adjust font size if needed */
+  width: 250px; 
+  font-size: 16px; 
   line-height: 1.2;
 }
 .p1 a,
 .p1 span {
-    margin-right: 20px; /* Add margin between each element */
+    margin-right: 20px; 
 }
 h4 {
   margin: 10px 0;
   font-size: 18px;
 }
 
-/* Icon styling */
+
 .icon {
   margin-right: 5px;
 }
 
-/* Link styling */
+
 .link {
   text-decoration: none;
   font-weight: bold;
@@ -163,20 +162,20 @@ h4 {
   text-decoration: underline;
 }
 
-/* Additional styling for date and comments */
+
 .featuredPostTxt div span {
   display: inline-flex;
   align-items: center;
-  margin: 10px 5px; /* Space between the spans */
+  margin: 10px 5px; 
 }
 
-/* Styling for the "Learn More" section */
+
 .featuredPostTxt div p {
   margin: 10px 0;
   font-weight: bold;
   cursor: pointer;
-  display: flex; /* New */
-  align-items: center; /* New */
+  display: flex; 
+  align-items: center; 
 }
 
 .featuredPostTxt div p span {
@@ -185,11 +184,11 @@ h4 {
 .featuredPostTxt div span {
   display: inline-flex;
   align-items: center;
-  /* margin: 10px 10px; Space between the icon and text */
+  
   margin-right: 24px;
 }
 
-/* Icon styling */
+
 .icon {
   margin-left: -6px; /* Space between the icon and text */
 }
